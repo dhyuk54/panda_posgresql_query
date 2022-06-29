@@ -82,7 +82,7 @@ def read_dataframe(csv_file):
 
 
 def main():
-    csv_file = "../data/bulk_insert_execute_values"
+    csv_file = "/data/bulk_insert_execute_values"
     df = read_dataframe(csv_file)
     print(df.hean(5))
     
